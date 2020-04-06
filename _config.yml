@@ -1,12 +1,10 @@
 title: DHARPA
 description: >- # this means to ignore newlines until "baseurl:"
   "Digital History Advanced Research Projects Accelerator"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" 
-
+baseurl: "/agency2" # the subpath of your site, e.g. /blog
+url: ""
 # Build settings
 markdown: kramdown
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -14,4 +12,3 @@ default_lang: en
 languages:
   - en
   - de
-
