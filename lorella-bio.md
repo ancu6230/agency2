@@ -1,0 +1,4 @@
+---
+layout: bio
+---
+Lorella holds a PhD in Language and Communication Studies from the University of East Anglia - UEA (UK) and an MA in Translation and Cultural Mediation from the University of Udine (Italy). Her expertise is in developing Digital Humanities methodologies that combine both quantitative and qualitative analysis and assist digital humanities scholars to contextualize and unveil the patterns hidden within large digital collections. Her specific interest is in investigating the relationship between language, media and society, and how language use often reveals latent assumptions and circulates implicit ideologies around particular topics and social categories. In DHARPA, her role combines both research and project managing tasks. She provides inputs to software development and designs digital research use cases. She also coordinates the Outreach campaign for both the project and the software. 

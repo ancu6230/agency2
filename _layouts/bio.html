@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='{{ page.lang | default: site.lang }}'>
+  <head>
+    {% include head.html %}
+  </head> 
+  <body>
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <a class="navbar-brand page-scroll" href="{{site.baseurl}}/#">{{site.title}}</a>
+            </div>
+
+        </div>
+        <!-- /.container-fluid -->
+    </nav>  
+  
+ 
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 mx-auto">
+				<p>
+					{{ content }}
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- Footer -->
+	<footer class="footer">
+	<div class="container">
+	  <div class="row align-items-center">
+		<div class="col-md-4">
+		  <span class="copyright">Copyright &copy; DHARPA Project 2020</span>
+		</div>
+		<div class="col-md-4">
+		  <ul class="list-inline social-buttons">
+		  <li class="list-inline-item">
+			<a href="#">
+			  <i class="far fa-envelope"></i>
+			</a>
+		  </li>		  
+			<li class="list-inline-item">
+			  <a href="#">
+				<i class="fab fa-twitter"></i>
+			  </a>
+			</li>
+			<li class="list-inline-item">
+			  <a href="#">
+				<i class="fab fa-linkedin-in"></i>
+			  </a>
+			</li>
+		  </ul>
+		</div>
+		<div class="col-md-4">
+		  <ul class="list-inline quicklinks">
+			<li class="list-inline-item">
+			  <a href="#">Privacy Policy</a>
+			</li>
+			<li class="list-inline-item">
+			  <a href="#">Terms of Use</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	</div>
+	</footer>	
+	
+  </body>
+</html>
+
+
+
+
+
+
+
+
